@@ -3,7 +3,7 @@
 	const list = document.querySelector('.container ul');
 	myButton.addEventListener('click', function(e)
 		{
-			e.preventDefault(); //եթե սա չգրենք չի ավելացնում ՝ Կանխել լռելյայն ձևի ներկայացումը կամ կոճակի վարքագիծը
+			e.preventDefault(); //եթե սա չգրենք չի ավելացնում ՝ բառացի կանխում է լռելյայն ձևի ներկայացումը կամ կոճակի վարքագիծը
 			//Եթե ինփութը դատարկ է
 			if (inputText.value === "") {
 				alert("Դաշտը լրացված չէ։ Խնդրում ենք լրացնել!"); 
@@ -24,7 +24,7 @@
 							close[i].parentElement.style.opacity = 0;
 							setTimeout(function() {
 								close[i].parentElement.remove();
-							}, 500);//500ml սպասում է և ջնջում է էլեմնետը ցուցակից
+							}, 500);//500մլվրկ սպասում է և ջնջում է էլեմնետը ցուցակից
 						});
 					}
 					
