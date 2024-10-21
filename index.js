@@ -1,6 +1,6 @@
 	const inputText = document.querySelector('#txt');//գտնում է այն էլեմնտները որոնց id-ն txt է
 	const myButton = document.querySelector('.list');
-	const list = document.querySelector('.container ul');
+	const list = document.querySelector('.div ul');
 	myButton.addEventListener('click', function(e)
 		{
 			e.preventDefault(); //եթե սա չգրենք չի ավելացնում ՝ բառացի կանխում է լռելյայն ձևի ներկայացումը կամ կոճակի վարքագիծը
